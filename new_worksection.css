@@ -1,0 +1,371 @@
+header{
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    justify-content: space-between;
+  
+}
+*{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+  
+}
+body{
+    background: black;
+    overflow: visible;
+}
+
+.navigation ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.navigation ul li{
+    padding: 15px;
+}
+li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 700;
+}
+ul li {
+    list-style: none;
+}
+
+
+li a:hover{
+    background-color: yellow;
+    border-radius: 15px;
+    transition: 0.5s;
+    color: black;
+ 
+}
+
+li a.active{
+    border-bottom: 3px solid white;
+}
+li a:hover{
+    border-color: transparent;
+}
+.logo{
+    margin: 20px;
+    padding-left: 20px;
+}
+.freeworkout{
+    font-size: 28px;
+    font-weight: 600;
+    clear: both;
+    margin: 20px;
+    padding: 20px;
+   
+}
+ironlady{
+    margin: 20px;
+    width: 250px;
+    opacity: 0.4;
+}
+.flop-creservior{
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+    position: relative;
+}
+
+.flop-creservior p{
+    writing-mode: vertical-lr;
+    rotate: -180deg;
+    z-index: 1;
+    position: absolute;
+    font-size: 20px;
+    font-weight: 600;
+}
+.weight-loss{
+    bottom: 30vh;
+    left: 27%;
+}
+
+.beginnerfriendly{
+    bottom: 30vh;
+    left: 27%;
+}
+
+
+
+.moderate{
+    bottom: 30vh;
+    left: 27%;
+}
+
+.equipment{
+    bottom: 30vh;
+    right: 30px;
+}
+.training{
+    right: 100px;
+    bottom: 40vh;
+   
+}
+.button{
+    font-weight: 700;
+    margin-left: 25px;
+    padding: 20px;
+    width: 80%;
+    border: 1px solid yellow;
+    border-radius: 25px;
+    background-color: black;
+    
+}
+.button:hover{
+    background: yellow;
+    color: black;
+    transition: 0.7s;
+}
+.enquiry{
+    font-size: 13px;
+    font-weight: 400;
+}
+.people{
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    background: transparent;
+    padding: 15px;
+    border: 1px solid yellow;
+    border-radius: 15px;
+    width: 15%;
+    
+}
+.people:hover{
+    background-color: #ffed00;
+    color: black;
+}
+h3{
+    font-size: 29px;
+}
+.Beginner-friendly{
+    margin: 20px;
+    padding: 20px;
+}
+.Jadoft{
+    margin: 20px;
+    padding: 20px;
+    position: relative;
+    width: 700px;
+    height: 900px;
+}
+.jadoft-faj{
+    position: absolute;
+    top: 10%;
+    left: 20%;
+}
+.jadoft-item{
+    position: absolute;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+}
+.jadoft-item.workoutsect{
+    border-radius: 75px;
+    padding-left: 30px;
+    padding-right: 20px;
+    position: relative;
+
+}
+.jadoft.active {
+    opacity: 1;  
+  }
+  
+  .jadoft-control-prev, 
+  .jadoft-control-next {
+    font-size: 2em;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    top: 70vh;
+    transform: translateY(-50%);
+    
+  }
+  
+  .jadoft-control-prev {
+    top: 50vh;
+    left: 20%;
+  }
+  
+  .Jadoft-control-next{  
+    right: 60%;
+    top: 50vh;
+  }
+.flop{
+    display: flex;
+    background: #4A4A4A;
+    border-radius: 15px;
+    position: relative;
+    top: -20vh;
+    left: 21%;
+    height: 80px;
+    width: 230px;
+   
+}
+.workoutsect1{
+    position: absolute;
+    left: 5%;
+    top: 15%;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+.workoutsect2{
+    position: absolute;
+    padding-top:8px;
+    padding-left:8px;
+    left: 48%;
+    top: 18%;
+    
+}
+.mins{
+    position: absolute;
+    left: 57%;
+    top: 1%;
+    font-size: 12px;
+    font-weight: 400;
+    color: black;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+.days{
+    font-size: 12px;
+    font-weight: 400;
+    position: absolute;
+    left: 14%;
+    top: 1%;
+    color: black;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.multiple{
+    margin: 10px;
+    padding: 10px;
+    background: yellow;
+    border-radius: 10px;
+    width: 28%;
+    height: 15px;
+    align-items: center;
+}
+.flop1{
+    margin: 10px;
+    padding: 10px;
+    background: yellow;
+    border-radius: 10px;
+    width: 42%;
+    height: 13px;
+    align-items: center; 
+}
+.Abschallenge{
+    position: absolute;
+    top: 35px;
+    left: 15px;
+    font-size: 15px;
+    font-weight: 400;
+}
+.Jadoft {
+    width: 400px; /* Adjust this to your carousel width */
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto; /* Centers the carousel */
+  }
+  
+  .tone {
+    width: 100%;
+    display: inline-block;
+    position: absolute;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  /* Adjust positioning for each tone */
+  .tone:nth-child(2) { left: 100%; }
+  .tone:nth-child(1) { left: 0; }
+  
+  
+  /* Animation to tone the images */
+  .Jadoft:hover .tone {
+    transform: translateX(-100%);
+  }
+  .input-box{
+    margin: 20px;
+    padding: 20px;
+    position: relative;
+}
+.image1{
+    float: right;
+    margin-right: 20px;
+    padding-left: 20px;
+}
+#image1{
+    border-radius: 50px;
+}
+.input input{
+    width: 30%;
+    height: 50px;
+    margin-bottom: 20px;
+    border-radius: 25px;
+    border: 1px solid yellow;
+    background-color: black;
+    line-height: 40px;
+    padding-left: 30px;
+}
+.input input:focus{
+    border: 2px solid yellow;
+    outline: none;
+}
+
+::placeholder{
+    text-align: left;
+    color: white;
+    line-height: 20px;
+}
+#input{
+    height: 120px;
+
+}
+.saveur{
+    clear: both;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+}
+.saveur p{
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 400;
+    text-align: center;
+}
+.contactUs{
+    margin: 20px;
+    padding: 20px;
+}
+.lorem{
+    font-size: 13px;
+    font-weight: 400;
+}
+.buy{
+    font-size: 18px;
+    font-weight: 700;
+    color: yellow;
+}
+button a{
+    text-decoration: none;
+
+}
+@media only screen and (min-width:320px)and (max-width:900px){
+    img{
+        max-width: 100%;
+        height: auto;}
+    .hide-on-small{
+            display: none;}
+    }
+

@@ -1,0 +1,220 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Outfit', sans-serif;
+}
+*{
+    font-family: 'Outfit', sans-serif;
+    color: white;
+}
+body{
+    background: black;
+}
+
+.navigation ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navigation ul li{
+    padding: 15px;
+}
+ul li {
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 700;
+}
+li a:hover{
+    background-color: yellow;
+    border-radius: 15px;
+    transition: 0.5s;
+    color: black;
+}
+li a.active{
+    border-bottom: 3px solid white;
+}
+
+li a:hover{
+    border-color: transparent;
+}
+.logo{
+    margin: 20px;
+    padding-left: 20px;
+}
+
+.more{
+    font-size: 75px;
+    font-weight: 400;
+}
+.fitness{
+    font-weight: 700;
+}
+.join{
+    font-size: 18px;
+    font-weight: 400;
+}
+.image-container{
+    position: relative;
+}
+
+.divider{
+    margin: 30px;
+    padding: 20px;
+    position: absolute;
+    top: -60px;
+}
+.create{
+    margin: 0px;
+    padding: 20px;
+    color: black;
+    background-color: yellow;
+    border: none;
+    border-radius: 15px;
+    font-weight: 700;
+}
+.flop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    position: relative;
+}
+.background{
+    background-color:  #3B3B3B;
+    width: 240px;
+    height: 270px;
+    border: none;
+    border-radius: 15px;
+    top: -30vh;
+    margin-left: 90px;
+    position: relative;
+}
+.Tefem1{
+    left: 29%;
+    top: 8%;
+    position: absolute;
+}
+.Tefem2{
+    left: 36%;
+    top: 14%;
+    position: absolute;
+}
+.paragraph{
+    position: absolute;
+    top: 50%;
+    left: 17%;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+}
+.paragraph1{
+    position: absolute;
+    top: 50%;
+    left: 17%;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+}
+.paragraph2{
+    position: absolute;
+    top: 50%;
+    left: 17%;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+}
+.Tefem3{
+    position: absolute;
+    top: 23%;
+    left: 42.5%;
+}
+.Tefem4{
+    position: absolute;
+    top: 23%;
+    left: 54.5%;
+}
+.TEfem5{
+    position: absolute;
+    top: 32%;
+    left: 44%;
+}
+.main{
+    margin-top: -130px;
+}
+.buy{
+    font-size: 18px;
+    font-weight: 700;
+    color: yellow;
+}
+.contactus{
+    margin: 20px;
+    padding: 20px;
+}
+.lorem{
+    font-size: 13px;
+    font-weight: 400;
+}
+.input-box{
+    margin: 20px;
+    padding: 20px;
+    position: relative;
+}
+.image1{
+    float: right;
+    margin-right: 20px;
+    padding-left: 20px;
+}
+#image1{
+    border-radius: 50px;
+}
+.input input{
+    width: 30%;
+    height: 50px;
+    margin-bottom: 20px;
+    border-radius: 25px;
+    border: 1px solid yellow;
+    background-color: black;
+    line-height: 40px;
+    padding-left: 30px;
+}
+.input input:focus{
+    border: 2px solid yellow;
+    outline: none;
+}
+::placeholder{
+    text-align: left;
+    color: white;
+    line-height: 20px;
+}
+#trying{
+    height: 120px;
+}
+.last{
+    clear: both;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+}
+.last p{
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 400;
+    text-align: center;
+}
+@media only screen and (min-width:320px)and (max-width:900px){
+    img{
+        max-width: 100%;
+        height: auto;}
+    .hide-on-small{
+            display: none;}
+}

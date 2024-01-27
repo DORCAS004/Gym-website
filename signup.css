@@ -1,0 +1,101 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.nav-bar ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-bar ul li{
+    padding: 15px;
+}
+ul li {
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    font-size: 15px;
+}
+li a:hover{
+    background-color: yellow;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+li a.active{
+    border-bottom: 3px solid black;
+}
+
+li a:hover{
+    border-color: transparent;
+}
+.logo{
+    margin: 20px;
+    padding-left: 20px;
+}
+.track{
+    font-size: 52px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+.first-heading{
+    margin: 20px;
+    padding: 20px;
+}
+.start{
+    font-family: 'Montserrat', sans-serif;
+   font-size: 15px;
+   font-weight: 400; 
+}
+.input-box{
+    margin: 20px;
+    padding: 20px;
+    position: relative;
+}
+.image1{
+    float: right;
+    margin-right: 20px;
+    padding-left: 20px;
+}
+#image1{
+    border-radius: 50px;
+}
+/*.container{
+}*/
+.input input{
+    width: 30%;
+    height: 7vh;
+    margin-bottom: 20px;
+    border-radius: 25px;
+    border: 1px solid black;
+}
+::placeholder{
+    text-align: left;
+    padding: 15px;
+    color: black;
+}
+.notification{
+    display: flex;
+}
+.notification > p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    font-weight: 300;
+}
+button{
+    font-size: 15px;
+    border: none;
+    border-radius: 25px;
+    width: 30%;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    background-color: yellow;
+    color: black;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
